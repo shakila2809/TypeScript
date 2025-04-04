@@ -1,0 +1,63 @@
+.imagewidth {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.latesfeedimage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.latesfeed {
+  display: flex;
+//   justify-content: center;
+ 
+}
+
+.headtop{
+    color: white;
+}
+
+.card-content-feeds {
+  padding: 16px;
+  color: #fff;
+
+  border-bottom: 2px solid grey;
+  width: 100%;
+
+  max-width: 400px;
+  .card-title {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+
+  .card-description {
+    font-size: 1rem;
+    color: #bbb;
+    margin-bottom: 5px;
+  }
+
+  .card-time {
+    font-size: 0.85rem;
+    color: #888;
+  }
+
+
+}
+
+.card-content-feeds.last-feed {
+    border-bottom: none; // Removes border from the last item
+  }
+
+
+  @media (max-width: 1024px) {
+    .card-content-feeds{
+        width: 100% !important;
+    }
+    .latesfeed{
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+  }

@@ -1,0 +1,105 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background: #0e262a;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  
+
+  .card-main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 30px;
+
+  }
+
+  .card-image {
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+
+  .card-image-1 {
+    width: 100%; // Uses percentage for responsiveness
+    max-width: 800px;
+    height: 30%;
+    object-fit: cover;
+    border-radius: 30px;
+  }
+
+  .topcon {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px;
+    border-bottom: 2px solid grey;
+    h2 {
+      color: white;
+      margin-top: 0px;
+    }
+  }
+
+  .card-content {
+    padding: 16px;
+    color: #fff;
+
+    .card-title {
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+    }
+    .card-sub-title {
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+    }
+
+    .card-description {
+        width: 100%;
+        max-width: 500px;
+      font-size: 1rem;
+      color: #bbb;
+      margin-bottom: 8px;
+    }
+
+    .card-time {
+      font-size: 0.85rem;
+      color: #888;
+    }
+  }
+  .datetime {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  .card-time-color {
+    color: #3fc250;
+    font-weight: 600;
+  }
+  
+}
+
+
+@media (max-width: 1024px) {
+   .card .card-main {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 30px;
+    
+      }
+
+      .overall{
+        // display: flex;
+        // justify-content: center;
+        // flex-direction: column;
+        width: 100%;
+        // max-width: 400px;
+
+      }
+}
