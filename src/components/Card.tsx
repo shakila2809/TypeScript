@@ -15,7 +15,7 @@ export const Card: React.FC = () => {
     <div className="card">
         <div className="topcon">
         <span>
-            <h2>David Marcus, The Latest Top Executive To Leave Meta</h2>
+            <h3>David Marcus, The Latest Top Executive To Leave Meta</h3>
             <TopCard
         title="David Marcus, The Latest Top Executive To Leave Meta"
         description="Catch up on the latest crypto market news at The Currency Analytics..."
